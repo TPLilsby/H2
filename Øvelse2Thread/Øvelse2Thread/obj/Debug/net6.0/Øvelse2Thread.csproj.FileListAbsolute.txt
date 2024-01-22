@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\bin\Debug\net6.0\Øvelse2Thread.exe
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\bin\Debug\net6.0\Øvelse2Thread.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\bin\Debug\net6.0\Øvelse2Thread.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\bin\Debug\net6.0\Øvelse2Thread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\bin\Debug\net6.0\Øvelse2Thread.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\refint\Øvelse2Thread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\Øvelse2Thread.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse2Thread\Øvelse2Thread\obj\Debug\net6.0\ref\Øvelse2Thread.dll

@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\bin\Debug\net6.0\BasisØvelserThread.exe
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\bin\Debug\net6.0\BasisØvelserThread.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\bin\Debug\net6.0\BasisØvelserThread.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\bin\Debug\net6.0\BasisØvelserThread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\bin\Debug\net6.0\BasisØvelserThread.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\refint\BasisØvelserThread.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\BasisØvelserThread.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BasisØvelserThread\BasisØvelserThread\obj\Debug\net6.0\ref\BasisØvelserThread.dll

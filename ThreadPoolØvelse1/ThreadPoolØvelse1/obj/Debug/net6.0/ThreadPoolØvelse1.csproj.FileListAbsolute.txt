@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\bin\Debug\net6.0\ThreadPoolØvelse1.exe
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\bin\Debug\net6.0\ThreadPoolØvelse1.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\bin\Debug\net6.0\ThreadPoolØvelse1.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\bin\Debug\net6.0\ThreadPoolØvelse1.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\bin\Debug\net6.0\ThreadPoolØvelse1.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\refint\ThreadPoolØvelse1.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ThreadPoolØvelse1.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadPoolØvelse1\ThreadPoolØvelse1\obj\Debug\net6.0\ref\ThreadPoolØvelse1.dll

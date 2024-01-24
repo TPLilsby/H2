@@ -2,6 +2,8 @@
 class Program
 {
     static Queue<int> products = new Queue<int>(9);
+    Object _lock = new Object();
+
     static void Main(string[] args)
     {
         Thread produceThread = new Thread(Producer);
@@ -15,22 +17,20 @@ class Program
 
     static void Producer()
     {
-        int count = 0;
-
         while (true)
         {
-            if (products.Count < 3)
+            lock (products)
             {
-                count++;
-                products.Enqueue(count);
-                Console.WriteLine("\nProduced" + count);
+                for (int i = 0; i < 10; i++)
+                {
+                    products.Enqueue(i);
+                    Thread.Sleep(500);
+                    Console.WriteLine("Opretter: " + i);
+                }
+                    Monitor.PulseAll(products);
             }
-            else
-            {
-                Console.WriteLine("Kan ikke producere flere.");
-            }
-
-            Thread.Sleep(6000);
+            Console.WriteLine("333333333333333333333333: " + products.Count);
+            Thread.Sleep(2000);
         }
     }
 
@@ -38,13 +38,21 @@ class Program
     {
         while (true)
         {
-
-            if (products.Count > 0)
+            lock (products)
             {
+                while (products.Count  <= 3)
+                {
 
-                products.Dequeue();
-                Console.WriteLine("Consumed");
+                    Console.WriteLine("Consumer venter!");
+                    Monitor.Wait(products);
+                }
+
+
+                Console.WriteLine("qConsumer produkt: " + products.Dequeue());
+
+
             }
+            Console.WriteLine(products.Count);
         }
     }
 }

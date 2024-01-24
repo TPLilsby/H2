@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\bin\Debug\net6.0\Øvelse1TheadSync.exe
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\bin\Debug\net6.0\Øvelse1TheadSync.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\bin\Debug\net6.0\Øvelse1TheadSync.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\bin\Debug\net6.0\Øvelse1TheadSync.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\bin\Debug\net6.0\Øvelse1TheadSync.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\refint\Øvelse1TheadSync.dll
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\Øvelse1TheadSync.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\Øvelse1TheadSync\Øvelse1TheadSync\obj\Debug\net6.0\ref\Øvelse1TheadSync.dll

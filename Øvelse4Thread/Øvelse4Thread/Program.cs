@@ -1,28 +1,35 @@
-﻿
-class Program
+﻿class Program
 {
+    static char[] values = new char[3];
     static void Main(string[] args)
     {
-        Thread printThread = new Thread(PrintOutput);
 
-        Thread readThread = new Thread(ReadInput);
+        Thread getInputThread = new Thread(GetInput);
+        getInputThread.Start();
 
-        printThread.Start();
-        readThread.Start();
+        Thread writeOutputThread = new Thread(WriteOutput);
 
+        writeOutputThread.Start();
+
+        getInputThread.Join();
     }
 
-    static char ReadInput()
+    static void GetInput()
     {
+        Console.WriteLine("Skriv tegn");
         char input = char.Parse(Console.ReadLine());
 
-
-        Console.ReadKey();
-        return input;
+        for (int i = 0; i < values.Length; i++)
+        {
+            values[i] = input;
+        }
     }
 
-    static void PrintOutput(char input)
+    static void WriteOutput()
     {
-        Console.WriteLine();
+        for (int i = 0; i < values.Length; i++)
+        {
+            Console.Write(values[i]);
+        }
     }
 }

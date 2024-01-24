@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\bin\Debug\net6.0\FlaskeAutomaten.exe
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\bin\Debug\net6.0\FlaskeAutomaten.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\bin\Debug\net6.0\FlaskeAutomaten.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\bin\Debug\net6.0\FlaskeAutomaten.dll
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\bin\Debug\net6.0\FlaskeAutomaten.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.dll
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\refint\FlaskeAutomaten.dll
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\FlaskeAutomaten.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\FlaskeAutomaten\FlaskeAutomaten\obj\Debug\net6.0\ref\FlaskeAutomaten.dll

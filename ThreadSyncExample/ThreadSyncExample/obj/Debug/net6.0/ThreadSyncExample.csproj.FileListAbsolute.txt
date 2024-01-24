@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\bin\Debug\net6.0\ThreadSyncExample.exe
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\bin\Debug\net6.0\ThreadSyncExample.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\bin\Debug\net6.0\ThreadSyncExample.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\bin\Debug\net6.0\ThreadSyncExample.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\bin\Debug\net6.0\ThreadSyncExample.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\refint\ThreadSyncExample.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ThreadSyncExample.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ThreadSyncExample\ThreadSyncExample\obj\Debug\net6.0\ref\ThreadSyncExample.dll

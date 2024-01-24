@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Øvelse 2ThreadSync/1.0.0": {
+        "runtime": {
+          "Øvelse 2ThreadSync.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Øvelse 2ThreadSync/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

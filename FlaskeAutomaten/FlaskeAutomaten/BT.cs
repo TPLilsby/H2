@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlaskeAutomaten
 {
+    // Enum for the bottle types
     public enum BT
     {
         Beer,

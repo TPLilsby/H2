@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\bin\Debug\net6.0\BaggageSortingSystem.exe
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\bin\Debug\net6.0\BaggageSortingSystem.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\bin\Debug\net6.0\BaggageSortingSystem.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\bin\Debug\net6.0\BaggageSortingSystem.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\bin\Debug\net6.0\BaggageSortingSystem.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\refint\BaggageSortingSystem.dll
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\BaggageSortingSystem.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\BaggageSortingSystem\BaggageSortingSystem\obj\Debug\net6.0\ref\BaggageSortingSystem.dll

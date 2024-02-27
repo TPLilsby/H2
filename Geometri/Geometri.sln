@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometri", "Geometri\Geometri.csproj", "{2EEDD5D9-6C74-4297-8E6C-82E078361DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EEDD5D9-6C74-4297-8E6C-82E078361DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEDD5D9-6C74-4297-8E6C-82E078361DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEDD5D9-6C74-4297-8E6C-82E078361DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEDD5D9-6C74-4297-8E6C-82E078361DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B63AEA7-3027-4AF7-939B-CCBFDF675070}
+	EndGlobalSection
+EndGlobal

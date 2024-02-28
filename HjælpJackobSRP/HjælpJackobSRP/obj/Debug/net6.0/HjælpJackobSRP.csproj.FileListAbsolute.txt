@@ -1,0 +1,5 @@
+C:\Users\zbctoli\Documents\GitHub\H2\HjælpJackobSRP\HjælpJackobSRP\obj\Debug\net6.0\HjælpJackobSRP.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\HjælpJackobSRP\HjælpJackobSRP\obj\Debug\net6.0\HjælpJackobSRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\HjælpJackobSRP\HjælpJackobSRP\obj\Debug\net6.0\HjælpJackobSRP.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\HjælpJackobSRP\HjælpJackobSRP\obj\Debug\net6.0\HjælpJackobSRP.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\HjælpJackobSRP\HjælpJackobSRP\obj\Debug\net6.0\HjælpJackobSRP.csproj.CoreCompileInputs.cache

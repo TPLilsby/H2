@@ -10,7 +10,8 @@ namespace EnWebside
     {
         public async Task MakeRequest(string path)
         {
-
+            string file = System.IO.File.ReadAllText(path);
+            Console.WriteLine($"{file}\n");
         }
     }
 }

@@ -8,9 +8,19 @@ namespace EnWebside
             IRequest Httprequest = new HTTP();
 
             Console.WriteLine("Indtast URL: ");
-            string path = Console.ReadLine();
+            string urlPath = Console.ReadLine();
 
-            await Httprequest.MakeRequest(path);
+            await Httprequest.MakeRequest(urlPath);
+
+            IRequest Filerequest = new File();
+
+            Console.WriteLine("Indtast filnavn: ");
+            string filePath = Console.ReadLine();
+
+            await Filerequest.MakeRequest(filePath);
+
+
+
         }
 
 

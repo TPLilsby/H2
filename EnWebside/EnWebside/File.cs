@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace EnWebside
 {
@@ -10,8 +11,8 @@ namespace EnWebside
     {
         public async Task MakeRequest(string path)
         {
-            string file = System.IO.File.ReadAllText(path);
-            Console.WriteLine($"{file}\n");
+            string fileContent = await System.IO.File.ReadAllTextAsync(path);
+            Console.WriteLine($"{fileContent}\n");
         }
     }
 }

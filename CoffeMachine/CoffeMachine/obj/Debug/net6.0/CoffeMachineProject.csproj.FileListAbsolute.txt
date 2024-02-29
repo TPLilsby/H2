@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\bin\Debug\net6.0\CoffeMachineProject.exe
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\bin\Debug\net6.0\CoffeMachineProject.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\bin\Debug\net6.0\CoffeMachineProject.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\bin\Debug\net6.0\CoffeMachineProject.dll
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\bin\Debug\net6.0\CoffeMachineProject.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.dll
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\refint\CoffeMachineProject.dll
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\CoffeMachineProject.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\CoffeMachine\CoffeMachine\obj\Debug\net6.0\ref\CoffeMachineProject.dll

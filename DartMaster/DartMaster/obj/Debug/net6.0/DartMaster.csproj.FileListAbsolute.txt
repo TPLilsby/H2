@@ -1,0 +1,15 @@
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\bin\Debug\net6.0\DartMaster.exe
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\bin\Debug\net6.0\DartMaster.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\bin\Debug\net6.0\DartMaster.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\bin\Debug\net6.0\DartMaster.dll
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\bin\Debug\net6.0\DartMaster.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.dll
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\refint\DartMaster.dll
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\DartMaster.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\DartMaster\DartMaster\obj\Debug\net6.0\ref\DartMaster.dll

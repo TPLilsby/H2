@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +9,7 @@ namespace ExpenseTrackr
     public class ExpenseManager : IDisplay, IExpense
     {
         private List<Expense> expenses = new List<Expense>();
+        StatisticsCalculator statisticsCalculator = new StatisticsCalculator();
 
         public void AddExpense(double amount, string category)
         {
@@ -73,11 +73,12 @@ namespace ExpenseTrackr
             var sortedExpenses = expenses.OrderBy(expense => expense.Category);
 
             Console.WriteLine("Expenses sorted by category:");
-            
+
             foreach (var expense in sortedExpenses)
             {
                 Console.WriteLine(expense.Format());
             }
         }
     }
+
 }

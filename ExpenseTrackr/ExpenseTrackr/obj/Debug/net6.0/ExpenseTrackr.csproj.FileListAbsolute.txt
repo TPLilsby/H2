@@ -13,3 +13,18 @@ C:\Users\Tobias\OneDrive - Vordingborg Kommune\MinUddannelse\Dokumenter\GitHub\H
 C:\Users\Tobias\OneDrive - Vordingborg Kommune\MinUddannelse\Dokumenter\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.pdb
 C:\Users\Tobias\OneDrive - Vordingborg Kommune\MinUddannelse\Dokumenter\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.genruntimeconfig.cache
 C:\Users\Tobias\OneDrive - Vordingborg Kommune\MinUddannelse\Dokumenter\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ref\ExpenseTrackr.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\bin\Debug\net6.0\ExpenseTrackr.exe
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\bin\Debug\net6.0\ExpenseTrackr.deps.json
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\bin\Debug\net6.0\ExpenseTrackr.runtimeconfig.json
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\bin\Debug\net6.0\ExpenseTrackr.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\bin\Debug\net6.0\ExpenseTrackr.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.csproj.AssemblyReference.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.AssemblyInfoInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.AssemblyInfo.cs
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.csproj.CoreCompileInputs.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\refint\ExpenseTrackr.dll
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.pdb
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ExpenseTrackr.genruntimeconfig.cache
+C:\Users\zbctoli\Documents\GitHub\H2\ExpenseTrackr\ExpenseTrackr\obj\Debug\net6.0\ref\ExpenseTrackr.dll

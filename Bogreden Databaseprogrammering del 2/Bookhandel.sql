@@ -34,7 +34,7 @@ CREATE TABLE Book (
     BookID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Title VARCHAR(100) NOT NULL,
     Price DECIMAL(10, 2),
-    ISBN BIGINT(13),
+    ISBN INT(13),
     ReleaseDate DATETIME,
     Description VARCHAR(100),
     AuthorID INT,
@@ -48,6 +48,7 @@ CREATE TABLE Customer (
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50),
     Email VARCHAR(100),
+    PasswordHash NVARCHAR(200),
     PhoneNumber VARCHAR(50),
     ZipCodeID VARCHAR(4),
     FOREIGN KEY (ZipCodeID) REFERENCES ZipCode(ZipCode)
@@ -86,12 +87,13 @@ CREATE TABLE Bogreden_Log (
 -- Create triggers for logging
 DELIMITER //
 
+-- Book
 CREATE TRIGGER Book_Insert_Trigger
 AFTER INSERT ON Book
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('New book inserted', NOW());
+    VALUES (CONCAT('New book inserted: ', NEW.Title), NOW());
 END; //
 
 CREATE TRIGGER Book_Update_Trigger
@@ -99,7 +101,7 @@ AFTER UPDATE ON Book
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('Book updated', NOW());
+    VALUES (CONCAT('Book updated: ', NEW.Title), NOW());
 END; //
 
 CREATE TRIGGER Book_Delete_Trigger
@@ -107,7 +109,7 @@ AFTER DELETE ON Book
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('Book deleted', NOW());
+    VALUES (CONCAT('Book deleted: ', OLD.Title), NOW());
 END; //
 
 -- Customer
@@ -116,7 +118,7 @@ AFTER INSERT ON Customer
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('New Customer inserted', NOW());
+    VALUES (CONCAT('New Customer inserted: ', NEW.FirstName, ' ', NEW.LastName), NOW());
 END; //
 
 CREATE TRIGGER Customer_Update_Trigger
@@ -124,7 +126,7 @@ AFTER UPDATE ON Customer
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('Customer updated', NOW());
+    VALUES (CONCAT('Customer updated: ', NEW.FirstName, ' ', NEW.LastName), NOW());
 END; //
 
 CREATE TRIGGER Customer_Delete_Trigger
@@ -132,7 +134,7 @@ AFTER DELETE ON Customer
 FOR EACH ROW
 BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
-    VALUES ('Customer deleted', NOW());
+    VALUES (CONCAT('Customer deleted: ', OLD.FirstName, ' ', OLD.LastName), NOW());
 END; //
 
 -- Order
@@ -159,6 +161,7 @@ BEGIN
     INSERT INTO Bogreden_Log (LogMessage, LogDateTime)
     VALUES ('Order deleted', NOW());
 END; //
+
 
 DELIMITER ;
 
@@ -231,6 +234,14 @@ CREATE PROCEDURE AddNewGenre(
 BEGIN
     INSERT INTO Genre (Name, Description) VALUES (p_Name, p_Description);
 END //
+
+
+CREATE PROCEDURE GetCustomerOrderHistory(
+    IN p_CustomerID INT
+)
+BEGIN
+    SELECT * FROM Orders WHERE CustomerID = p_CustomerID;
+END //
  
 DELIMITER ;
 
@@ -240,40 +251,44 @@ CREATE INDEX IX_Customer_CustomerID ON Customer(CustomerID);
 CREATE INDEX IX_ZipCode_ZipCode ON ZipCode(ZipCode);
 
 
--- Dummy Data
+-- Data
 
 
--- Insert dummy genres
+-- Insert genres
 INSERT INTO Genre (Name, Description) VALUES
 ('Fiction', 'Works of the imagination or prose.'),
 ('Non-fiction', 'Factual stories and true accounts.'),
 ('Science Fiction', 'Speculative fiction based on imagined future.');
 
--- Insert dummy authors
+-- Insert authors
 INSERT INTO Author (Name) VALUES
 ('HC Andersen'),
 ('Sten Stensen Blicher'),
-('David Svarrer');
+('David Svarrer'),
+('J.K. Rowling'),
+('Haruki Murakami');
 
--- Insert dummy books
+-- Insert books
 INSERT INTO Book (Title, Price, ISBN, ReleaseDate, Description, AuthorID, GenreID) VALUES
 ('Pride and Prejudice', 9.99, 9780141439518, '1813-01-28', 'Classic novel by Jane Austen', 1, 1),
 ('Great Expectations', 7.99, 9780141439563, '1861-08-01', 'Classic novel by Charles Dickens', 2, 1),
-('War and Peace', 12.99, 9780143035008, '1869-01-01', 'Historical novel by Leo Tolstoy', 3, 2);
+('War and Peace', 12.99, 9780143035008, '1869-01-01', 'Historical novel by Leo Tolstoy', 3, 2),
+('Harry Potter og Hemmelighedernes Kammer', 11.89, 9780306406157, '1998-07-2', 'Fantastic Roman by J.K. Romling', 4, 1);
 
--- Insert dummy customers
+
+-- Insert customers
 INSERT INTO Customer (FirstName, LastName, Email, PhoneNumber, ZipCodeID) VALUES
 ('John', 'Doe', 'john.doe@example.com', '12345678', '4200'),
 ('Alice', 'Smith', 'alice.smith@example.com', '98765432', '4200'),
-('Bob', 'Johnson', 'bob.johnson@example.com', '11112222', '4200');
+('Bob', 'Johnson', 'bob.johnson@example.com', '11112222', '4760');
 
--- Insert dummy orders
+-- Insert orders
 INSERT INTO Orders (OrderDate, TotalPrice, CustomerID) VALUES
 ('2024-04-25 10:00:00', 29.97, 1),
 ('2024-04-25 11:30:00', 7.99, 2),
 ('2024-04-26 09:45:00', 12.99, 3);
 
--- Insert dummy order items
+-- Insert order items
 INSERT INTO OrderItem (Quantity, TotalPrice, OrderID) VALUES
 (1, 9.99, 1),
 (1, 7.99, 2),

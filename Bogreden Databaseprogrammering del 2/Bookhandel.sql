@@ -14,15 +14,15 @@ GRANT ALL PRIVILEGES ON Bogreden.* TO 'BogredenUser'@'localhost';
 
 -- Create tables
 
-CREATE TABLE ZipCode (
-    ZipCode VARCHAR(4) PRIMARY KEY NOT NULL,
-    City VARCHAR(100) NOT NULL
-);
-
 CREATE TABLE Genre (
     GenreID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Name VARCHAR(30) NOT NULL,
     Description VARCHAR(100)
+);
+
+CREATE TABLE ZipCode (
+    ZipCode VARCHAR(4) PRIMARY KEY NOT NULL,
+    City VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Author (
@@ -256,40 +256,41 @@ CREATE INDEX IX_ZipCode_ZipCode ON ZipCode(ZipCode);
 
 -- Insert genres
 INSERT INTO Genre (Name, Description) VALUES
-('Fiction', 'Works of the imagination or prose.'),
-('Non-fiction', 'Factual stories and true accounts.'),
-('Science Fiction', 'Speculative fiction based on imagined future.');
+('Non-fiction', 'This is factual stories and true accounts.'),
+('Fiction', 'This is works of the imagination or prose.'),
+('Science Fiction', 'This is speculative fiction based on imagined future.');
 
 -- Insert authors
 INSERT INTO Author (Name) VALUES
 ('HC Andersen'),
-('Sten Stensen Blicher'),
 ('David Svarrer'),
 ('J.K. Rowling'),
+('Sten Stensen Blicher'),
 ('Haruki Murakami');
 
 -- Insert books
 INSERT INTO Book (Title, Price, ISBN, ReleaseDate, Description, AuthorID, GenreID) VALUES
 ('Pride and Prejudice', 9.99, 9780141439518, '1813-01-28', 'Classic novel by Jane Austen', 1, 1),
 ('Great Expectations', 7.99, 9780141439563, '1861-08-01', 'Classic novel by Charles Dickens', 2, 1),
-('War and Peace', 12.99, 9780143035008, '1869-01-01', 'Historical novel by Leo Tolstoy', 3, 2),
-('Harry Potter og Hemmelighedernes Kammer', 11.89, 9780306406157, '1998-07-2', 'Fantastic Roman by J.K. Romling', 4, 1);
-
+('Harry Potter og Hemmelighedernes Kammer', 11.89, 9780306406157, '1998-07-2', 'Fantastic Roman by J.K. Romling', 3, 2),
+('War and Peace', 12.99, 9780143035008, '1869-01-01', 'Historical novel by Leo Tolstoy', 3, 2);
 
 -- Insert customers
 INSERT INTO Customer (FirstName, LastName, Email, PhoneNumber, ZipCodeID) VALUES
-('John', 'Doe', 'john.doe@example.com', '12345678', '4200'),
-('Alice', 'Smith', 'alice.smith@example.com', '98765432', '4200'),
-('Bob', 'Johnson', 'bob.johnson@example.com', '11112222', '4760');
+('John', 'Terra', 'john.terra@example.com', '12345678', '4100'),
+('Alice', 'Smith', 'alice.smith@example.com', '98795432', '4200'),
+('Bobby', 'Johnson', 'bobby.johnson@example.com', '43286712', '4760');
 
 -- Insert orders
 INSERT INTO Orders (OrderDate, TotalPrice, CustomerID) VALUES
 ('2024-04-25 10:00:00', 29.97, 1),
 ('2024-04-25 11:30:00', 7.99, 2),
-('2024-04-26 09:45:00', 12.99, 3);
+('2024-04-25 09:45:00', 12.99, 3),
+('2024-04-26 08:25:00', 11.89, 2);
 
 -- Insert order items
 INSERT INTO OrderItem (Quantity, TotalPrice, OrderID) VALUES
 (1, 9.99, 1),
 (1, 7.99, 2),
-(1, 12.99, 3);
+(1, 12.99, 3),
+(1, 11.89, 4);

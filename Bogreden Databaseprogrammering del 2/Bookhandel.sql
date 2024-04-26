@@ -14,22 +14,26 @@ GRANT ALL PRIVILEGES ON Bogreden.* TO 'BogredenUser'@'localhost';
 
 -- Create tables
 
+-- Table for Genre
 CREATE TABLE Genre (
     GenreID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Name VARCHAR(30) NOT NULL,
     Description VARCHAR(100)
 );
 
+-- Table for ZipCode
 CREATE TABLE ZipCode (
     ZipCode VARCHAR(4) PRIMARY KEY NOT NULL,
     City VARCHAR(100) NOT NULL
 );
 
+-- Table for Order Author
 CREATE TABLE Author (
     AuthorID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Name VARCHAR(100) NOT NULL
 );
 
+-- Table for Book
 CREATE TABLE Book (
     BookID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Title VARCHAR(100) NOT NULL,
@@ -43,6 +47,7 @@ CREATE TABLE Book (
     FOREIGN KEY (GenreID) REFERENCES Genre(GenreID)
 );
 
+-- Table for Customer
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     FirstName VARCHAR(50) NOT NULL,
@@ -54,6 +59,7 @@ CREATE TABLE Customer (
     FOREIGN KEY (ZipCodeID) REFERENCES ZipCode(ZipCode)
 );
 
+-- Table for Orders
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     OrderDate DATETIME,
@@ -62,6 +68,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)
 );
 
+-- Table for OrderItem
 CREATE TABLE OrderItem (
     OrderItemID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     Quantity INT NOT NULL,
@@ -87,7 +94,7 @@ CREATE TABLE Bogreden_Log (
 -- Create triggers for logging
 DELIMITER //
 
--- Book
+-- Book Insert
 CREATE TRIGGER Book_Insert_Trigger
 AFTER INSERT ON Book
 FOR EACH ROW
@@ -96,6 +103,7 @@ BEGIN
     VALUES (CONCAT('New book inserted: ', NEW.Title), NOW());
 END; //
 
+-- Update
 CREATE TRIGGER Book_Update_Trigger
 AFTER UPDATE ON Book
 FOR EACH ROW
@@ -104,6 +112,7 @@ BEGIN
     VALUES (CONCAT('Book updated: ', NEW.Title), NOW());
 END; //
 
+-- Deletie
 CREATE TRIGGER Book_Delete_Trigger
 AFTER DELETE ON Book
 FOR EACH ROW
@@ -112,7 +121,7 @@ BEGIN
     VALUES (CONCAT('Book deleted: ', OLD.Title), NOW());
 END; //
 
--- Customer
+-- Customer Insert
 CREATE TRIGGER Customer_Insert_Trigger
 AFTER INSERT ON Customer
 FOR EACH ROW
@@ -121,6 +130,7 @@ BEGIN
     VALUES (CONCAT('New Customer inserted: ', NEW.FirstName, ' ', NEW.LastName), NOW());
 END; //
 
+-- Update
 CREATE TRIGGER Customer_Update_Trigger
 AFTER UPDATE ON Customer
 FOR EACH ROW
@@ -129,6 +139,7 @@ BEGIN
     VALUES (CONCAT('Customer updated: ', NEW.FirstName, ' ', NEW.LastName), NOW());
 END; //
 
+-- Delete
 CREATE TRIGGER Customer_Delete_Trigger
 AFTER DELETE ON Customer
 FOR EACH ROW
@@ -137,7 +148,7 @@ BEGIN
     VALUES (CONCAT('Customer deleted: ', OLD.FirstName, ' ', OLD.LastName), NOW());
 END; //
 
--- Order
+-- Order Insert
 CREATE TRIGGER Order_Insert_Trigger
 AFTER INSERT ON Orders
 FOR EACH ROW
@@ -146,6 +157,7 @@ BEGIN
     VALUES ('New Order inserted', NOW());
 END; //
 
+-- Update
 CREATE TRIGGER Order_Update_Trigger
 AFTER UPDATE ON Orders
 FOR EACH ROW
@@ -154,6 +166,7 @@ BEGIN
     VALUES ('Order updated', NOW());
 END; //
 
+-- Delete
 CREATE TRIGGER Order_Delete_Trigger
 AFTER DELETE ON Orders
 FOR EACH ROW
@@ -168,32 +181,37 @@ DELIMITER ;
 -- Create stored procedures
 DELIMITER //
 
+-- Stored procedure GetBooks
 CREATE PROCEDURE GetBooks()
 BEGIN
     SELECT * FROM Book;
 END //
 
+-- Stored procedure GetCustomers
 CREATE PROCEDURE GetCustomers()
 BEGIN
     SELECT * FROM Customer;
 END //
 
-
+-- Stored procedure GetBookByID
 CREATE PROCEDURE GetBookByID(IN book_id INT)
 BEGIN
     SELECT * FROM Book WHERE BookID = book_id;
 END //
 
+-- Stored procedure GetOrdersByCustomerID
 CREATE PROCEDURE GetOrdersByCustomerID(IN customer_id INT)
 BEGIN
     SELECT * FROM Orders WHERE CustomerID = customer_id;
 END //
 
+-- Stored procedure GetTotalOrdersByCustomerID
 CREATE PROCEDURE GetTotalOrdersByCustomerID(IN customer_id INT, OUT total_orders INT)
 BEGIN
     SELECT COUNT(*) INTO total_orders FROM Orders WHERE CustomerID = customer_id;
 END //
 
+-- Stored procedure AddNewBook
 CREATE PROCEDURE AddNewBook(
     IN p_Title VARCHAR(100),
     IN p_Price DECIMAL(10,2),
@@ -208,6 +226,7 @@ BEGIN
     VALUES (p_Title, p_Price, p_ISBN, p_ReleaseDate, p_Description, p_AuthorID, p_GenreID);
 END //
 
+-- Stored procedure AddNewCusttomer
 CREATE PROCEDURE AddNewCustomer(
     IN p_FirstName VARCHAR(50),
     IN p_LastName VARCHAR(50),
@@ -220,6 +239,7 @@ BEGIN
     VALUES (p_FirstName, p_LastName, p_Email, p_PhoneNumber, p_ZipCodeID);
 END //
 
+-- Stored procedure AddNewAuthor
 CREATE PROCEDURE AddNewAuthor(
     IN p_Name VARCHAR(100)
 )
@@ -227,6 +247,7 @@ BEGIN
     INSERT INTO Author (Name) VALUES (p_Name);
 END //
 
+-- Stored procedure AddNewGenre
 CREATE PROCEDURE AddNewGenre(
     IN p_Name VARCHAR(30),
     IN p_Description VARCHAR(100)
@@ -235,7 +256,7 @@ BEGIN
     INSERT INTO Genre (Name, Description) VALUES (p_Name, p_Description);
 END //
 
-
+-- Stored procedure for GetCustomerOrderHistory
 CREATE PROCEDURE GetCustomerOrderHistory(
     IN p_CustomerID INT
 )
